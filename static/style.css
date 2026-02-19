@@ -13,8 +13,14 @@ body {
 
 #chat-box {
   height: 300px;
-  overflow-y: scroll;
+  overflow-y: auto;
   border: 1px solid #ddd;
   margin-bottom: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-box p {
+  margin: 5px 0;
 }
